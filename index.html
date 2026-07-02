@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Kaylee Godfrey WDD 231</title>
+  <meta name="description" content="WDD 231 course home page for Kaylee Godfrey, showing course progress and certificate courses.">
+  <meta name="author" content="Kaylee Godfrey">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Site logo">
+    <span>Kaylee Godfrey</span>
+    <button id="menu-toggle" aria-label="Open menu">&#9776;</button>
+  </header>
+
+  <nav id="nav-menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="#">Chamber</a>
+    <a href="#">Final</a>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+
+    <section>
+      <h2>About Me</h2>
+      <p>I'm Kaylee Godfrey, and I'm from Alabama. I'm studying to become a web designer and developer, and I'm excited to keep learning more about frontend design and strengthen my skills. Outside of design, I love to travel with my husband and try new things together.</p>
+    </section>
+
+    <section class="photo-section">
+      <h2>Student Photo</h2>
+      <img src="images/profile.webp" alt="Photo of Kaylee Godfrey">
+    </section>
+
+    <section>
+      <h2>Web Certificate Courses</h2>
+      <div id="course-buttons">
+        <button id="all">All</button>
+        <button id="cse">CSE</button>
+        <button id="wdd">WDD</button>
+      </div>
+      <div id="course-cards"></div>
+      <p id="credits">The total credits for courses listed above is 0</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/kaylee-godfrey/"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+      <a href="https://github.com/kayrand"><img src="images/github.webp" alt="GitHub"></a>
+    </div>
+    <p>&copy; <span id="year"></span> • Kaylee Godfrey • Alabama, USA</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
