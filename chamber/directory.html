@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directory | Birmingham Chamber of Commerce</title>
+  <meta name="description" content="Business directory for the Birmingham Chamber of Commerce. Find local member businesses in Birmingham, Alabama.">
+  <meta name="author" content="Kaylee Godfrey">
+
+  <meta property="og:title" content="Birmingham Chamber of Commerce Directory">
+  <meta property="og:description" content="Find local member businesses in Birmingham, Alabama.">
+  <meta property="og:image" content="https://kayrand.github.io/wdd231/chamber/images/og-image.webp">
+  <meta property="og:url" content="https://kayrand.github.io/wdd231/chamber/directory.html">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/directory.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="header-title">
+      <img src="images/favicon.svg" alt="Birmingham Chamber logo" class="logo">
+      <span>Birmingham Chamber</span>
+    </div>
+
+    <button id="menu-toggle" aria-label="Open menu">&#9776;</button>
+
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="discover.html">Discover</a>
+      <a href="directory.html" class="active">Directory</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </div>
+
+  <main>
+    <h1>Directory</h1>
+
+    <div class="view-toggle">
+      <button id="grid-view" aria-label="Grid view">&#9638;</button>
+      <button id="list-view" aria-label="List view">&#9776;</button>
+    </div>
+
+    <div id="members" class="grid"></div>
+  </main>
+
+  <footer>
+    <div class="footer-contact">
+      <p class="footer-name">Birmingham Chamber of Commerce</p>
+      <p>420 Richard Arrington Jr Blvd N</p>
+      <p>Birmingham, AL 35203</p>
+      <p>info@birminghamchamber.com</p>
+      <p>(205) 555-0100</p>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+        <img src="images/facebook.svg" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+        <img src="images/twitter.svg" alt="Twitter">
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+        <img src="images/linkedin.svg" alt="LinkedIn">
+      </a>
+    </div>
+
+    <div class="footer-info">
+      <p>WDD 231 Class Project</p>
+      <p>Kaylee Godfrey</p>
+      <p>&copy; <span id="year"></span> Birmingham Chamber of Commerce</p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Iron City Coffee Co.",
+      "address": "2312 2nd Ave N, Birmingham, AL 35203",
+      "phone": "(205) 555-0142",
+      "website": "https://www.ironcitycoffee.com",
+      "image": "iron-city-coffee.webp",
+      "membershipLevel": 3,
+      "description": "Locally roasted coffee and a downtown gathering spot for Birmingham's business community."
+    },
+    {
+      "name": "Magic City Books",
+      "address": "1005 20th St S, Birmingham, AL 35205",
+      "phone": "(205) 555-0198",
+      "website": "https://www.magiccitybooks.com",
+      "image": "magic-city-books.webp",
+      "membershipLevel": 2,
+      "description": "An independent bookstore featuring Southern authors and regular community events."
+    },
+    {
+      "name": "Vulcan Fitness Studio",
+      "address": "1730 5th Ave S, Birmingham, AL 35233",
+      "phone": "(205) 555-0176",
+      "website": "https://www.vulcanfitness.com",
+      "image": "vulcan-fitness.webp",
+      "membershipLevel": 3,
+      "description": "Full-service gym and personal training studio serving the Southside neighborhood."
+    },
+    {
+      "name": "Southern Table Restaurant",
+      "address": "420 Richard Arrington Jr Blvd N, Birmingham, AL 35203",
+      "phone": "(205) 555-0113",
+      "website": "https://www.southerntablebham.com",
+      "image": "southern-table.webp",
+      "membershipLevel": 3,
+      "description": "Farm-to-table Southern cuisine highlighting Alabama-grown ingredients."
+    },
+    {
+      "name": "Redstone Marketing Group",
+      "address": "2100 1st Ave N, Birmingham, AL 35203",
+      "phone": "(205) 555-0155",
+      "website": "https://www.redstonemarketing.com",
+      "image": "redstone-marketing.webp",
+      "membershipLevel": 2,
+      "description": "Digital marketing and branding services for local and regional businesses."
+    },
+    {
+      "name": "Highlands Law Partners",
+      "address": "505 20th St N, Birmingham, AL 35203",
+      "phone": "(205) 555-0129",
+      "website": "https://www.highlandslaw.com",
+      "image": "highlands-law.webp",
+      "membershipLevel": 1,
+      "description": "A local law firm specializing in small business and corporate services."
+    },
+    {
+      "name": "Avondale Blooms Florist",
+      "address": "4128 5th Ave S, Birmingham, AL 35222",
+      "phone": "(205) 555-0187",
+      "website": "https://www.avondaleblooms.com",
+      "image": "avondale-blooms.webp",
+      "membershipLevel": 1,
+      "description": "Custom floral arrangements for events, weddings, and everyday celebrations."
+    }
+  ]
+}
