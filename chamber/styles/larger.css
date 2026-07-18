@@ -52,4 +52,28 @@
     border-top: none;
     text-align: right;
   }
+  
+.hero img {
+    height: 450px;
+  }
+
+  .home-grid {
+    flex-direction: row;
+  }
+
+  .events {
+    flex: 1;
+  }
+
+  .weather {
+    flex: 1;
+  }
+
+  #spotlight-cards {
+    flex-direction: row;
+  }
+
+  .spotlight-card {
+    flex: 1;
+  }
 }
