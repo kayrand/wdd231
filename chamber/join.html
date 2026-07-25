@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join | Birmingham Chamber of Commerce</title>
+  <meta name="description" content="Apply to join the Birmingham Chamber of Commerce. Choose a membership level and submit your application.">
+  <meta name="author" content="Kaylee Godfrey">
+
+  <meta property="og:title" content="Join the Birmingham Chamber of Commerce">
+  <meta property="og:description" content="Apply for membership with the Birmingham Chamber of Commerce.">
+  <meta property="og:image" content="https://kayrand.github.io/wdd231/chamber/images/og-image.webp">
+  <meta property="og:url" content="https://kayrand.github.io/wdd231/chamber/join.html">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/join.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="header-title">
+      <img src="images/favicon.svg" alt="Birmingham Chamber logo" class="logo">
+      <span>Birmingham Chamber</span>
+    </div>
+
+    <button id="menu-toggle" aria-label="Open menu">&#9776;</button>
+
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="discover.html">Discover</a>
+      <a href="directory.html">Directory</a>
+      <a href="join.html" class="active">Join</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Join the Chamber</h1>
+
+    <div class="join-layout">
+      <form method="get" action="thankyou.html" class="join-form">
+        <label>First Name*
+          <input type="text" name="first-name" title="First Name" autocomplete="given-name" required>
+        </label>
+
+        <label>Last Name*
+          <input type="text" name="last-name" title="Last Name" autocomplete="family-name" required>
+        </label>
+
+        <label>Organizational Title
+          <input type="text" name="org-title" title="Your title within your organization"
+                 autocomplete="organization-title"
+                 pattern="[A-Za-z\- ]{7,}"
+                 placeholder="Minimum 7 letters, hyphens, and spaces">
+        </label>
+
+        <label>Email*
+          <input type="email" name="email" title="Email Address" autocomplete="email"
+                 placeholder="example@email.com" required>
+        </label>
+
+        <label>Mobile Phone*
+          <input type="tel" name="phone" title="Mobile Phone Number" autocomplete="tel" required>
+        </label>
+
+        <label>Business/Organization Name*
+          <input type="text" name="organization" title="Business or Organization Name"
+                 autocomplete="organization" required>
+        </label>
+
+        <label>Membership Level
+          <select name="membership-level" title="Membership Level" required>
+            <option value="" disabled selected>Select One</option>
+            <option value="np">NP Membership (Non-Profit)</option>
+            <option value="bronze">Bronze Membership</option>
+            <option value="silver">Silver Membership</option>
+            <option value="gold">Gold Membership</option>
+          </select>
+        </label>
+
+        <label>Business/Organization Description
+          <textarea name="description" title="Describe your business or organization"></textarea>
+        </label>
+
+        <input type="hidden" name="timestamp" id="timestamp">
+
+        <input type="submit" value="Submit Application" class="submit-btn">
+      </form>
+
+      <div class="membership-cards">
+        <section class="member-card" id="card-np">
+          <h2>NP Membership</h2>
+          <p>For non-profit organizations. No fee.</p>
+          <a href="#" data-modal="modal-np">Learn More</a>
+        </section>
+
+        <section class="member-card" id="card-bronze">
+          <h2>Bronze Membership</h2>
+          <p>Entry-level benefits for new businesses.</p>
+          <a href="#" data-modal="modal-bronze">Learn More</a>
+        </section>
+
+        <section class="member-card" id="card-silver">
+          <h2>Silver Membership</h2>
+          <p>Expanded benefits and visibility.</p>
+          <a href="#" data-modal="modal-silver">Learn More</a>
+        </section>
+
+        <section class="member-card" id="card-gold">
+          <h2>Gold Membership</h2>
+          <p>Premium benefits and top visibility.</p>
+          <a href="#" data-modal="modal-gold">Learn More</a>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <dialog id="modal-np">
+    <h2>NP Membership</h2>
+    <p>For non-profit organizations at no cost.</p>
+    <ul>
+      <li>Free directory listing</li>
+      <li>Access to networking events</li>
+      <li>Chamber newsletter</li>
+    </ul>
+    <button class="close-modal">Close</button>
+  </dialog>
+
+  <dialog id="modal-bronze">
+    <h2>Bronze Membership</h2>
+    <p>Entry-level benefits for growing businesses.</p>
+    <ul>
+      <li>Everything in NP membership</li>
+      <li>Discounted event tickets</li>
+      <li>Business referrals</li>
+    </ul>
+    <button class="close-modal">Close</button>
+  </dialog>
+
+  <dialog id="modal-silver">
+    <h2>Silver Membership</h2>
+    <p>Expanded benefits and greater visibility.</p>
+    <ul>
+      <li>Everything in Bronze membership</li>
+      <li>Featured social media promotion</li>
+      <li>Access to member training sessions</li>
+      <li>Sponsorship opportunities</li>
+    </ul>
+    <button class="close-modal">Close</button>
+  </dialog>
+
+  <dialog id="modal-gold">
+    <h2>Gold Membership</h2>
+    <p>Premium benefits and top-tier visibility.</p>
+    <ul>
+      <li>Everything in Silver membership</li>
+      <li>Home page spotlight advertising</li>
+      <li>Priority event sponsorship</li>
+      <li>Featured directory placement</li>
+      <li>Exclusive luncheon invitations</li>
+    </ul>
+    <button class="close-modal">Close</button>
+  </dialog>
+
+  <footer>
+    <div class="footer-contact">
+      <p class="footer-name">Birmingham Chamber of Commerce</p>
+      <p>420 Richard Arrington Jr Blvd N</p>
+      <p>Birmingham, AL 35203</p>
+      <p>info@birminghamchamber.com</p>
+      <p>(205) 555-0100</p>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+        <img src="images/facebook.svg" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+        <img src="images/twitter.svg" alt="Twitter">
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+        <img src="images/linkedin.svg" alt="LinkedIn">
+      </a>
+    </div>
+
+    <div class="footer-info">
+      <p>WDD 231 Class Project</p>
+      <p>Kaylee Godfrey</p>
+      <p>&copy; <span id="year"></span> Birmingham Chamber of Commerce</p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>

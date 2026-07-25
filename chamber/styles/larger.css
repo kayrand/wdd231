@@ -76,4 +76,17 @@
   .spotlight-card {
     flex: 1;
   }
+
+.join-layout {
+    flex-direction: row;
+    align-items: start;
+  }
+
+  .join-form {
+    flex: 2;
+  }
+
+  .membership-cards {
+    flex: 1;
+  }
 }
