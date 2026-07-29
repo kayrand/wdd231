@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Plan | The Recipe Book</title>
+  <meta name="description" content="Site plan for The Recipe Book, a comfort-food recipe collection website.">
+  <meta name="author" content="Kaylee Godfrey">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --teal: #3d5a5b;
+      --rust: #c4703e;
+      --tan: #f5ebdd;
+      --white: #ffffff;
+      --text: #2b2b2b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Nunito Sans', sans-serif;
+      background-color: var(--tan);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--teal);
+      color: var(--tan);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-family: 'Patrick Hand', cursive;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-family: 'Nunito Sans', sans-serif;
+      margin: 0.5rem 0 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    section {
+      background-color: var(--white);
+      border: 1px solid #e0d8c8;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      font-family: 'Patrick Hand', cursive;
+      color: var(--teal);
+      font-size: 1.8rem;
+      margin-top: 0;
+      border-bottom: 2px solid var(--rust);
+      padding-bottom: 0.4rem;
+    }
+
+    h3 {
+      font-family: 'Patrick Hand', cursive;
+      color: var(--rust);
+      font-size: 1.3rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .color-swatches {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .swatch {
+      flex: 1;
+      min-width: 140px;
+      border-radius: 6px;
+      padding: 1rem;
+      text-align: center;
+      font-weight: 600;
+      border: 1px solid #ddd;
+    }
+
+    .swatch-teal {
+      background-color: var(--teal);
+      color: var(--tan);
+    }
+
+    .swatch-rust {
+      background-color: var(--rust);
+      color: var(--white);
+    }
+
+    .swatch-tan {
+      background-color: var(--tan);
+      color: var(--teal);
+    }
+
+    .font-sample {
+      margin-top: 1rem;
+    }
+
+    .font-heading {
+      font-family: 'Patrick Hand', cursive;
+      font-size: 1.8rem;
+      color: var(--teal);
+    }
+
+    .font-body {
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 1rem;
+    }
+
+    .wireframe-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .wireframe-images figure {
+      margin: 0;
+      text-align: center;
+    }
+
+    .wireframe-images img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .wireframe-images figcaption {
+      font-family: 'Patrick Hand', cursive;
+      color: var(--rust);
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      background-color: var(--teal);
+      color: var(--tan);
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Recipe Book</h1>
+    <p>Site Plan &middot; Kaylee Godfrey &middot; WDD 231</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Site Name</h2>
+      <p><strong>The Recipe Book</strong></p>
+      <p>I went with "The Recipe Book" because that's really what the site is. It's my own collection of recipes in one place. The name feels cozy and homey, like a recipe book you'd actually keep in the kitchen, and it makes it obvious right away what the site is about.</p>
+    </section>
+
+    <section>
+      <h2>Site Purpose</h2>
+      <p>The Recipe Book is a collection of comfort food and easy, homestyle recipes. Here's what people can do on the site:</p>
+      <ul>
+        <li>Look through a bunch of recipes laid out as cards.</li>
+        <li>Filter recipes by category and click one to see the full ingredients and directions.</li>
+        <li>Add their own recipes with a form, and those get saved so they're still there next time they visit.</li>
+      </ul>
+      <p>I want it to be a warm, easy place where people can find recipes they'll actually want to make and start building their own collection.</p>
+    </section>
+
+    <section>
+      <h2>Scenarios</h2>
+      <p>Here are a couple of questions someone visiting the site might have:</p>
+      <h3>Scenario 1</h3>
+      <p>"I need to make dinner tonight but I don't have much time. What can I make that's quick and easy?"</p>
+      <h3>Scenario 2</h3>
+      <p>"I found a recipe I love. How can I save my own recipes so I can come back to them later?"</p>
+    </section>
+
+    <section>
+      <h2>Color Scheme</h2>
+      <p>The site uses three main colors:</p>
+      <div class="color-swatches">
+        <div class="swatch swatch-teal">Teal<br>#3D5A5B</div>
+        <div class="swatch swatch-rust">Rust<br>#C4703E</div>
+        <div class="swatch swatch-tan">Tan<br>#F5EBDD</div>
+      </div>
+      <p style="margin-top:1rem;">
+        <strong>Teal (#3D5A5B)</strong> is for the header, footer, and the main headings.<br>
+        <strong>Rust (#C4703E)</strong> is for the buttons, links, and little accent details.<br>
+        <strong>Tan (#F5EBDD)</strong> is the page background, which gives it a warm, paper-like feel.
+      </p>
+    </section>
+
+    <section>
+      <h2>Typography</h2>
+      <p>I'm using two fonts:</p>
+      <div class="font-sample">
+        <p class="font-heading">Patrick Hand for the site name, headings, and recipe titles</p>
+        <p class="font-body">Nunito Sans for the body text, recipe details, and buttons, so everything stays clear and easy to read.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Wireframe</h2>
+      <p>Here are the wireframes showing both the mobile and desktop views.</p>
+      <div class="wireframe-images">
+        <figure>
+          <img src="images/wireframe.jpg" alt="Mobile and desktop wireframes of The Recipe Book home page">
+          <figcaption>Mobile &amp; Desktop Views</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>The Recipe Book &middot; Site Plan &middot; &copy; 2026 Kaylee Godfrey</p>
+  </footer>
+</body>
+</html>
