@@ -621,3 +621,69 @@ dialog li {
   border-radius: 6px;
   font-weight: 600;
 }
+
+/* DISCOVER PAGE LAYOUT */
+.discover-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Visitor message */
+.visitor-message {
+  background-color: var(--gold);
+  color: var(--forest);
+  font-weight: 600;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+/* Sidebar */
+.discover-info {
+  background-color: var(--white);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.discover-info h2 {
+  color: var(--forest);
+  margin-top: 0;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.gallery-item {
+  margin: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background-color: var(--white);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item figcaption {
+  text-align: center;
+  padding: 0.5rem;
+  color: var(--forest);
+  font-weight: 600;
+}

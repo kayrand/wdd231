@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover | Birmingham Chamber of Commerce</title>
+  <meta name="description" content="Discover Birmingham, Alabama. Explore the area's history, attractions, and points of interest.">
+  <meta name="author" content="Kaylee Godfrey">
+
+  <meta property="og:title" content="Discover Birmingham">
+  <meta property="og:description" content="Explore the history, attractions, and points of interest in Birmingham, Alabama.">
+  <meta property="og:image" content="https://kayrand.github.io/wdd231/chamber/images/og-image.webp">
+  <meta property="og:url" content="https://kayrand.github.io/wdd231/chamber/discover.html">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/discover.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="header-title">
+      <img src="images/favicon.svg" alt="Birmingham Chamber logo" class="logo">
+      <span>Birmingham Chamber</span>
+    </div>
+
+    <button id="menu-toggle" aria-label="Open menu">&#9776;</button>
+
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="discover.html" class="active">Discover</a>
+      <a href="directory.html">Directory</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Discover Birmingham</h1>
+
+    <div class="discover-layout">
+      <aside class="discover-sidebar">
+        <div id="visitor-message" class="visitor-message"></div>
+
+        <section class="discover-info">
+          <h2>Local History</h2>
+          <p>Founded in 1871, Birmingham grew rapidly as an industrial center known for iron and steel production, earning it the nickname "The Magic City." The famous Vulcan statue, the largest cast-iron statue in the world, still watches over the city today.</p>
+        </section>
+
+        <section class="discover-info">
+          <h2>Demographics</h2>
+          <p>Birmingham is the most populous city in Alabama, with a metro area home to over one million people. It is a growing hub for medical research, banking, and education.</p>
+        </section>
+
+        <section class="discover-info">
+          <h2>Current Events</h2>
+          <p>From festivals at Railroad Park to events at the Birmingham Museum of Art, there is always something happening. Visit local venues year-round for music, food, and community celebrations.</p>
+        </section>
+      </aside>
+
+      <div class="gallery">
+        <figure class="gallery-item item-1">
+          <img src="images/downtown.webp" alt="Downtown Birmingham" loading="lazy">
+          <figcaption>Downtown</figcaption>
+        </figure>
+        <figure class="gallery-item item-2">
+          <img src="images/skyline.jpg" alt="Birmingham skyline at dusk" loading="lazy">
+          <figcaption>Skyline</figcaption>
+        </figure>
+        <figure class="gallery-item item-3">
+          <img src="images/childrens.jpg" alt="Children's of Alabama hospital area" loading="lazy">
+          <figcaption>Children's of Alabama</figcaption>
+        </figure>
+        <figure class="gallery-item item-4">
+          <img src="images/skyline-two.jpg" alt="Birmingham skyline over the water" loading="lazy">
+          <figcaption>City View</figcaption>
+        </figure>
+        <figure class="gallery-item item-5">
+          <img src="images/skyline-three.jpg" alt="Birmingham skyline reflection" loading="lazy">
+          <figcaption>Riverside</figcaption>
+        </figure>
+        <figure class="gallery-item item-6">
+          <img src="images/park.jpg" alt="A green park pathway in Birmingham" loading="lazy">
+          <figcaption>Local Parks</figcaption>
+        </figure>
+        <figure class="gallery-item item-7">
+          <img src="images/vulcan.jpg" alt="The Vulcan statue overlooking Birmingham" loading="lazy">
+          <figcaption>Vulcan Park</figcaption>
+        </figure>
+        <figure class="gallery-item item-8">
+          <img src="images/rainbow-bridge.jpg" alt="The rainbow-lit bridge in Birmingham" loading="lazy">
+          <figcaption>Rainbow Bridge</figcaption>
+        </figure>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-contact">
+      <p class="footer-name">Birmingham Chamber of Commerce</p>
+      <p>420 Richard Arrington Jr Blvd N</p>
+      <p>Birmingham, AL 35203</p>
+      <p>info@birminghamchamber.com</p>
+      <p>(205) 555-0100</p>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+        <img src="images/facebook.svg" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+        <img src="images/twitter.svg" alt="Twitter">
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+        <img src="images/linkedin.svg" alt="LinkedIn">
+      </a>
+    </div>
+
+    <div class="footer-info">
+      <p>WDD 231 Class Project</p>
+      <p>Kaylee Godfrey</p>
+      <p>&copy; <span id="year"></span> Birmingham Chamber of Commerce</p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>
