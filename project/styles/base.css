@@ -530,7 +530,7 @@ input[type="submit"].submit-btn:hover {
 }
 
 .attributions h2 {
-  color: var(--rust);
+  color: var(--teal);
   margin-top: 1.5rem;
 }
 
