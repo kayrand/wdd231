@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | The Recipe Book</title>
+  <meta name="description" content="The Recipe Book is a collection of comfort food and easy, homestyle recipes you can browse, save, and add to.">
+  <meta name="author" content="Kaylee Godfrey">
+
+  <meta property="og:title" content="The Recipe Book">
+  <meta property="og:description" content="A collection of comfort food and easy, homestyle recipes.">
+  <meta property="og:image" content="images/hero.jpg">
+  <meta property="og:url" content="">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script type="module" src="scripts/featured.js"></script>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="header-title">
+      <img src="images/logo.svg" alt="The Recipe Book logo" class="logo">
+      <span>The Recipe Book</span>
+    </div>
+
+    <button id="menu-toggle" aria-label="Open menu">&#9776;</button>
+
+    <nav id="nav-menu">
+      <a href="index.html" class="active">Home</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="submit.html">Share a Recipe</a>
+    </nav>
+
+    <a href="recipes.html" class="nav-button">Browse Recipes</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/hero.jpg" alt="A cozy home-cooked meal">
+      <div class="hero-text">
+        <h1>Comfort food, made simple</h1>
+        <p>Easy, homestyle recipes worth coming back to.</p>
+        <a href="recipes.html" class="cta-button">Browse Recipes</a>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="section-inner">
+        <h2>Featured Recipes</h2>
+        <div id="featured-cards" class="featured-grid"></div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="section-inner about-inner">
+        <div class="about-text">
+          <h2>About</h2>
+          <p>The Recipe Book is a collection of comfort food and easy, homestyle recipes. It's a warm, simple place to find dishes you'll actually want to make, save your favorites, and build your own recipe collection over time.</p>
+        </div>
+        <img src="images/about.jpg" alt="A kitchen with ingredients ready for cooking" loading="lazy">
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <h2>Have a recipe to share?</h2>
+      <p>Add your own favorite recipe to the collection.</p>
+      <a href="submit.html" class="cta-button">Share a Recipe</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-info">
+        <p class="footer-name">The Recipe Book</p>
+        <p>Comfort food, made simple.</p>
+        <p><a href="attributions.html">Attributions</a></p>
+      </div>
+      <div class="footer-meta">
+        <p>Kaylee Godfrey &middot; WDD 231</p>
+        <p>&copy; <span id="year"></span> The Recipe Book</p>
+        <p id="lastModified"></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

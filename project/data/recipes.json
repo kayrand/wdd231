@@ -1,0 +1,419 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Chicken Pot Pie",
+      "category": "Lunch/Dinner",
+      "difficulty": "Medium",
+      "time": 60,
+      "servings": 6,
+      "image": "chicken-pot-pie.jpg",
+      "ingredients": [
+        "4 tbsp butter",
+        "1 lb chicken breast, cubed",
+        "1 cup sliced carrots",
+        "1/2 cup chopped celery",
+        "1/2 cup chopped onion",
+        "1/4 cup flour",
+        "1 cup chicken broth",
+        "1/2 cup heavy cream",
+        "1/2 cup frozen peas",
+        "2 pie crusts"
+      ],
+      "instructions": [
+        "Preheat oven to 425°F.",
+        "Melt butter in a skillet, then cook chicken, carrots, celery, and onion for 8-10 minutes.",
+        "Stir in flour until no dry flour remains.",
+        "Slowly add broth and cream; cook until thick and bubbling.",
+        "Stir in peas and remove from heat. Let cool slightly.",
+        "Fit one crust into a pie plate, add filling, and top with the second crust.",
+        "Cut slits in the top and bake 30-35 minutes until golden."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Banana Bread",
+      "category": "Dessert",
+      "difficulty": "Easy",
+      "time": 70,
+      "servings": 8,
+      "image": "banana-bread.jpg",
+      "ingredients": [
+        "3 ripe bananas, mashed",
+        "1/3 cup melted butter",
+        "3/4 cup sugar",
+        "1 egg, beaten",
+        "1 tsp vanilla",
+        "1 tsp baking soda",
+        "Pinch of salt",
+        "1 1/2 cups flour"
+      ],
+      "instructions": [
+        "Preheat oven to 350°F and grease a loaf pan.",
+        "Mix mashed bananas with melted butter.",
+        "Stir in sugar, egg, and vanilla.",
+        "Sprinkle baking soda and salt over the mixture and stir in.",
+        "Add flour and mix until just combined.",
+        "Pour into the loaf pan and bake 55-60 minutes.",
+        "Cool before slicing."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Crock Pot Beef Stew",
+      "category": "Lunch/Dinner",
+      "difficulty": "Easy",
+      "time": 480,
+      "servings": 6,
+      "image": "beef-stew.jpg",
+      "ingredients": [
+        "2 lbs beef stew meat, cubed",
+        "1/4 cup flour",
+        "1 tsp salt",
+        "1/2 tsp pepper",
+        "4 carrots, sliced",
+        "3 potatoes, cubed",
+        "1 onion, chopped",
+        "3 cups beef broth",
+        "2 tbsp tomato paste",
+        "1 tsp garlic powder"
+      ],
+      "instructions": [
+        "Toss beef with flour, salt, and pepper.",
+        "Add beef and all remaining ingredients to the crock pot.",
+        "Stir to combine.",
+        "Cover and cook on low for 8 hours (or high for 4-5 hours).",
+        "Stir before serving and adjust seasoning."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Macaroni and Cheese",
+      "category": "Lunch/Dinner",
+      "difficulty": "Easy",
+      "time": 40,
+      "servings": 6,
+      "image": "mac-and-cheese.jpg",
+      "ingredients": [
+        "1 lb elbow macaroni",
+        "1/4 cup butter",
+        "1/4 cup flour",
+        "2 1/2 cups milk",
+        "3 cups shredded cheddar cheese",
+        "1/2 tsp salt",
+        "1/4 tsp pepper"
+      ],
+      "instructions": [
+        "Cook macaroni according to package directions and drain.",
+        "Melt butter in a pot, whisk in flour, and cook 1 minute.",
+        "Slowly whisk in milk and cook until thickened.",
+        "Stir in cheese, salt, and pepper until melted and smooth.",
+        "Add the macaroni and stir to coat.",
+        "Serve warm."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Taco Soup",
+      "category": "Soup",
+      "difficulty": "Easy",
+      "time": 30,
+      "servings": 6,
+      "image": "taco-soup.jpg",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 onion, chopped",
+        "1 packet taco seasoning",
+        "1 can kidney beans",
+        "1 can black beans",
+        "1 can corn",
+        "1 can diced tomatoes with green chilies",
+        "1 can tomato sauce",
+        "2 cups beef broth"
+      ],
+      "instructions": [
+        "Brown the ground beef and onion in a large pot; drain excess fat.",
+        "Stir in taco seasoning.",
+        "Add beans, corn, tomatoes, tomato sauce, and broth (do not drain the cans).",
+        "Bring to a boil, then reduce heat and simmer 20 minutes.",
+        "Serve with your favorite toppings like cheese and sour cream."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Chicken Noodle Soup",
+      "category": "Soup",
+      "difficulty": "Easy",
+      "time": 45,
+      "servings": 6,
+      "image": "chicken-noodle-soup.jpg",
+      "ingredients": [
+        "1 tbsp olive oil",
+        "1 onion, chopped",
+        "3 carrots, sliced",
+        "3 celery stalks, sliced",
+        "2 cloves garlic, minced",
+        "8 cups chicken broth",
+        "2 cups cooked shredded chicken",
+        "3 cups egg noodles",
+        "1 tsp salt",
+        "1/2 tsp pepper"
+      ],
+      "instructions": [
+        "Heat oil in a large pot and cook onion, carrots, and celery until soft.",
+        "Add garlic and cook 1 minute.",
+        "Pour in broth and bring to a boil.",
+        "Add noodles and cook until tender.",
+        "Stir in the chicken, salt, and pepper.",
+        "Simmer a few minutes and serve."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Meatloaf",
+      "category": "Lunch/Dinner",
+      "difficulty": "Medium",
+      "time": 75,
+      "servings": 6,
+      "image": "meatloaf.jpg",
+      "ingredients": [
+        "2 lbs ground beef",
+        "1 cup breadcrumbs",
+        "1 onion, finely chopped",
+        "2 eggs",
+        "1/2 cup milk",
+        "1/4 cup ketchup, plus more for topping",
+        "1 tsp salt",
+        "1/2 tsp pepper"
+      ],
+      "instructions": [
+        "Preheat oven to 350°F.",
+        "Mix all ingredients together in a large bowl.",
+        "Press into a loaf pan or shape into a loaf on a baking sheet.",
+        "Spread extra ketchup on top.",
+        "Bake 55-60 minutes until cooked through.",
+        "Let rest 10 minutes before slicing."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Tater Tot Casserole",
+      "category": "Lunch/Dinner",
+      "difficulty": "Easy",
+      "time": 60,
+      "servings": 8,
+      "image": "tater-tot-casserole.jpg",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 onion, chopped",
+        "1 can cream of mushroom soup",
+        "1/2 cup milk",
+        "2 cups shredded cheddar cheese",
+        "1 bag frozen tater tots",
+        "1/2 tsp salt",
+        "1/4 tsp pepper"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F.",
+        "Brown ground beef and onion; drain.",
+        "Stir in soup, milk, salt, and pepper.",
+        "Spread the beef mixture in a baking dish.",
+        "Sprinkle with half the cheese, then top with tater tots.",
+        "Bake 40 minutes, add remaining cheese, and bake 5 more minutes."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Lasagna",
+      "category": "Lunch/Dinner",
+      "difficulty": "Hard",
+      "time": 90,
+      "servings": 8,
+      "image": "lasagna.jpg",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 jar marinara sauce",
+        "9 lasagna noodles",
+        "15 oz ricotta cheese",
+        "1 egg",
+        "3 cups shredded mozzarella",
+        "1/2 cup parmesan cheese",
+        "1 tsp Italian seasoning"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F and cook noodles.",
+        "Brown the beef and stir in marinara sauce.",
+        "Mix ricotta with egg and Italian seasoning.",
+        "Layer sauce, noodles, ricotta, and mozzarella in a baking dish; repeat.",
+        "Top with remaining mozzarella and parmesan.",
+        "Cover with foil and bake 25 minutes, then uncover and bake 20 more.",
+        "Let rest 10 minutes before serving."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cinnamon Rolls",
+      "category": "Breakfast",
+      "difficulty": "Hard",
+      "time": 150,
+      "servings": 12,
+      "image": "cinnamon-rolls.jpg",
+      "ingredients": [
+        "4 cups flour",
+        "1 packet active dry yeast",
+        "1 cup warm milk",
+        "1/3 cup sugar",
+        "1/3 cup melted butter",
+        "1 egg",
+        "1/2 cup brown sugar",
+        "2 tbsp cinnamon",
+        "1 cup powdered sugar",
+        "2 tbsp cream cheese"
+      ],
+      "instructions": [
+        "Dissolve yeast in warm milk and let sit 5 minutes.",
+        "Mix in sugar, butter, egg, and flour to form a dough.",
+        "Knead, then let rise 1 hour until doubled.",
+        "Roll out, spread with butter, brown sugar, and cinnamon.",
+        "Roll up, slice, and place in a pan; let rise 30 minutes.",
+        "Bake at 350°F for 20-25 minutes.",
+        "Mix powdered sugar and cream cheese for icing and spread over warm rolls."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Chicken Alfredo",
+      "category": "Lunch/Dinner",
+      "difficulty": "Medium",
+      "time": 35,
+      "servings": 4,
+      "image": "chicken-alfredo.jpg",
+      "ingredients": [
+        "1 lb fettuccine",
+        "2 chicken breasts",
+        "1/2 cup butter",
+        "1 cup heavy cream",
+        "2 cloves garlic, minced",
+        "1 1/2 cups parmesan cheese",
+        "1/2 tsp salt",
+        "1/4 tsp pepper"
+      ],
+      "instructions": [
+        "Cook fettuccine according to package directions.",
+        "Season and cook chicken until done, then slice.",
+        "Melt butter in a pan, add garlic, and cook 1 minute.",
+        "Stir in cream and bring to a simmer.",
+        "Whisk in parmesan until smooth; season with salt and pepper.",
+        "Toss pasta in the sauce and top with sliced chicken."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Instant Pot Pot Roast",
+      "category": "Lunch/Dinner",
+      "difficulty": "Medium",
+      "time": 90,
+      "servings": 6,
+      "image": "pot-roast.jpg",
+      "ingredients": [
+        "3 lb chuck roast",
+        "1 tbsp oil",
+        "1 tsp salt",
+        "1/2 tsp pepper",
+        "1 onion, quartered",
+        "4 carrots, chopped",
+        "3 potatoes, quartered",
+        "3 cups beef broth",
+        "2 tbsp Worcestershire sauce"
+      ],
+      "instructions": [
+        "Season the roast with salt and pepper.",
+        "Set Instant Pot to sauté and brown the roast on all sides in oil.",
+        "Add broth and Worcestershire sauce.",
+        "Add onion, carrots, and potatoes.",
+        "Seal and cook on high pressure for 60 minutes.",
+        "Let pressure release naturally for 15 minutes before opening."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Chocolate Chip Cookies",
+      "category": "Dessert",
+      "difficulty": "Easy",
+      "time": 30,
+      "servings": 24,
+      "image": "chocolate-chip-cookies.jpg",
+      "ingredients": [
+        "1 cup butter, softened",
+        "3/4 cup sugar",
+        "3/4 cup brown sugar",
+        "2 eggs",
+        "1 tsp vanilla",
+        "2 1/4 cups flour",
+        "1 tsp baking soda",
+        "1/2 tsp salt",
+        "2 cups chocolate chips"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F.",
+        "Cream butter with both sugars.",
+        "Beat in eggs and vanilla.",
+        "Mix in flour, baking soda, and salt.",
+        "Stir in chocolate chips.",
+        "Drop spoonfuls onto a baking sheet.",
+        "Bake 9-11 minutes until golden."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Biscuits and Gravy",
+      "category": "Breakfast",
+      "difficulty": "Medium",
+      "time": 40,
+      "servings": 6,
+      "image": "biscuits-and-gravy.jpg",
+      "ingredients": [
+        "1 lb ground breakfast sausage",
+        "1/4 cup flour",
+        "3 cups milk",
+        "1/2 tsp salt",
+        "1/2 tsp pepper",
+        "1 can refrigerated biscuits"
+      ],
+      "instructions": [
+        "Bake biscuits according to package directions.",
+        "Brown the sausage in a skillet, leaving the drippings.",
+        "Sprinkle flour over the sausage and stir 1-2 minutes.",
+        "Slowly add milk, stirring constantly.",
+        "Cook until thickened; season with salt and pepper.",
+        "Serve gravy over split biscuits."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Baked Ziti",
+      "category": "Lunch/Dinner",
+      "difficulty": "Easy",
+      "time": 55,
+      "servings": 8,
+      "image": "baked-ziti.jpg",
+      "ingredients": [
+        "1 lb ziti pasta",
+        "1 lb ground beef",
+        "1 jar marinara sauce",
+        "15 oz ricotta cheese",
+        "2 cups shredded mozzarella",
+        "1/2 cup parmesan cheese",
+        "1 tsp Italian seasoning"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F and cook the ziti.",
+        "Brown the beef and stir in marinara sauce.",
+        "Mix cooked ziti with ricotta and half the sauce.",
+        "Spread in a baking dish and top with remaining sauce.",
+        "Sprinkle with mozzarella and parmesan.",
+        "Bake 25-30 minutes until bubbly and golden."
+      ]
+    }
+  ]
+}

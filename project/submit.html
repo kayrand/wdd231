@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share a Recipe | The Recipe Book</title>
+  <meta name="description" content="Add your own favorite comfort food recipe to The Recipe Book collection.">
+  <meta name="author" content="Kaylee Godfrey">
+
+  <meta property="og:title" content="Share a Recipe | The Recipe Book">
+  <meta property="og:description" content="Add your own recipe to The Recipe Book collection.">
+  <meta property="og:image" content="images/hero.jpg">
+  <meta property="og:url" content="">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script type="module" src="scripts/submit.js"></script>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="header-title">
+      <img src="images/logo.svg" alt="The Recipe Book logo" class="logo">
+      <span>The Recipe Book</span>
+    </div>
+
+    <button id="menu-toggle" aria-label="Open menu">&#9776;</button>
+
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="submit.html" class="active">Share a Recipe</a>
+    </nav>
+
+    <a href="recipes.html" class="nav-button">Browse Recipes</a>
+  </header>
+
+  <main>
+    <section class="submit-header">
+      <h1>Share a Recipe</h1>
+      <p>Add your own favorite comfort food recipe to the collection. Your recipes are saved right in your browser.</p>
+    </section>
+
+    <section class="submit-layout">
+      <form id="recipe-form" class="recipe-form">
+        <label>Recipe Name*
+          <input type="text" name="name" required>
+        </label>
+
+        <label>Category*
+          <select name="category" required>
+            <option value="" disabled selected>Select One</option>
+            <option value="Lunch/Dinner">Lunch/Dinner</option>
+            <option value="Soup">Soup</option>
+            <option value="Breakfast">Breakfast</option>
+            <option value="Dessert">Dessert</option>
+          </select>
+        </label>
+
+        <label>Difficulty*
+          <select name="difficulty" required>
+            <option value="" disabled selected>Select One</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+          </select>
+        </label>
+
+        <label>Total Time (minutes)*
+          <input type="number" name="time" min="1" required>
+        </label>
+
+        <label>Servings*
+          <input type="number" name="servings" min="1" required>
+        </label>
+
+        <label>Ingredients* <span class="field-hint">(one per line)</span>
+          <textarea name="ingredients" rows="5" required></textarea>
+        </label>
+
+        <label>Instructions* <span class="field-hint">(one step per line)</span>
+          <textarea name="instructions" rows="5" required></textarea>
+        </label>
+
+        <input type="submit" value="Save Recipe" class="submit-btn">
+      </form>
+
+      <aside class="saved-recipes">
+        <h2>Your Saved Recipes</h2>
+        <div id="saved-list"></div>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-info">
+        <p class="footer-name">The Recipe Book</p>
+        <p>Comfort food, made simple.</p>
+      </div>
+      <div class="footer-meta">
+        <p>Kaylee Godfrey &middot; WDD 231</p>
+        <p>&copy; <span id="year"></span> The Recipe Book</p>
+        <p id="lastModified"></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
