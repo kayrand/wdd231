@@ -514,7 +514,7 @@ input[type="submit"].submit-btn:hover {
 }
 
 .added-recipe h3 {
-  color: var(--rust);
+  color: var(--teal);
   margin-bottom: 0.3rem;
 }
 
